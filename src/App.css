@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+form label{
+  color: red;
+  margin: 5px;
+}
+form input{
+  margin: 10px;
+}
+.heading{
+color: blue;
+}
+form button{
+  background-color: aquamarine;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: rgb(59, 3, 163);
+}
