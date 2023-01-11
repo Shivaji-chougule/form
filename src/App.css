@@ -8,6 +8,9 @@ form label{
 }
 form input{
   margin: 10px;
+  width: 200px;
+  height: 25px;border-radius: 5px;
+  border: 1px solid rgb(95, 106, 211);
 }
 .heading{
 color: blue;
