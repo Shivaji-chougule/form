@@ -12,6 +12,9 @@ form input{
   height: 25px;border-radius: 5px;
   border: 1px solid rgb(95, 106, 211);
 }
+form input{
+  background-color: rgb(238, 145, 145);
+}
 .heading{
 color: blue;
 }
@@ -22,4 +25,23 @@ form button{
   border: 1px solid blue;
   border-radius: 5px;
   color: rgb(59, 3, 163);
+  
+}
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.notification{
+  color: red;
+  margin-left: 70px;
+}
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
 }
